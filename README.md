@@ -17,9 +17,7 @@
     <li>If user enters Jim and 21, display <b>Jim age 21 is a winner: False</b></li>
 </ul>
 
-<p><b>Be sure to fill out author and date<br>
-    Be sure to separate input from calculation from output</b></p>
+<p><b>Be sure to fill out author and date<br></p>
 
-<p><b>Do NOT use if, just print the Boolean values</b><br>
-    You lose 2 points for every <b>if</b> or other selection construct used</p>
-<br>
+
+

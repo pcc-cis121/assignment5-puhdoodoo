@@ -14,7 +14,7 @@
     <li>if user enters Jill and 21, display <b>Jill age 21 is a winner: True</b></li>
     <li>If user enters Jack and 3, display <b>Jack age 3 is a winner: False</b></li>
     <li>If user enters Jack and 30, display <b>Jack age 30 is a winner: True</b></li>
-    <li>If user enters Jim and 21>, display <b>Jim age 21 is a winner: False</b></li>
+    <li>If user enters Jim and 21, display <b>Jim age 21 is a winner: False</b></li>
 </ul>
 
 <p><b>Be sure to fill out author and date<br>

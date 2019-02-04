@@ -10,7 +10,8 @@
 <p>Sample results are as follows:</p>
 <ul>
     <li>if user enters Sally and 21, display <b>Sally age 21 is a winner: True</b></li>
-    <li>If user enters Sam and 3, display <b>Sam age 3 is a winner: False</b></li>
+    <li>If user enters Sam and 21, display <b>Sam age 3 is a winner: True</b></li>
+    <li>If user enters Sam and 3, display <b>Sam age 3 is a winner: False/b></li>
     <li>If user enters Sally and 30, display <b>Sally age 30 is a winner: True</b></li>
     <li>If user enters Jim and 21, display <b>Jim age 21 is a winner: False</b></li>
 </ul>

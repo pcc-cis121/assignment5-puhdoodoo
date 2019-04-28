@@ -1,24 +1,30 @@
-# Assignment-5
-<h1>Winners</h1>
+<h1>Sales Calls</h1>
 
-<p>A local winery is giving away a free bottle of wine to people named Sally or Sam, as long as they are 21 years old or older</p>
+<p>A company does business in Portland and Hillsboro.<br>
+   It wants to call on anyone living in one of those two cities,<br>
+    as long as the client is 21 years of age or older</p>
 
-<p>Use input to prompt for string <b>name</b> and integer <b>age</b></p>
+<p>Use input to prompt for:</p>
+<ol>
+    <li>string <b>name</b></li>
+    <li>string <b>city</b></li>
+    <li>integer <b>age</b></li>
+</ol>
 
-<p>Display whether or not that person is a winner</p>
-
-<p>Sample results are as follows:</p>
-<ul>
-    <li>if user enters Sally and 21, display <b>Sally age 21 is a winner: True</b></li>
-    <li>If user enters Sam and 21, display <b>Sam age 21 is a winner: True</b></li>
-    <li>If user enters Sam and 3, display <b>Sam age 3 is a winner: False</b></li>
-    <li>If user enters Sally and 30, display <b>Sally age 30 is a winner: True</b></li>
-    <li>If user enters Jim and 30, display <b>Jim age 30 is a winner: False</b></li>
-</ul>
-
-<p><b>Be sure to fill out author and date<br>
-
-<br>
+<p>Display whether or not to call on that person</p>
 
 
+<h3>Tests</h3>
 
+|Name|City     |Age |Output         |
+|---| ---     |--- |---            |
+|Tran|Hillsboro| 21 |Call Tran: True|
+|Dan|Aloha|59|Call Dan: False|
+|Mel|Portland|8|Call Mel: False|
+|Raj|portland|31|Call Raj: True|
+|Gigi|Portland|51|Call Gigi: True|
+
+</table>
+
+<p><b>Be sure to fill out author and date</b><br>
+<b>Only change one line of code</b></p>

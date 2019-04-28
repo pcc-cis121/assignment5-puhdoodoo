@@ -1,6 +1,6 @@
 # author:
 # date:
-# purpose: Winners
+# purpose: Sales call
 
 # This program contains errors
 # find and fix them
@@ -12,21 +12,19 @@
 
 
 # input
-name = input("Please enter first name: ")
+name = input("Please enter your name: ")
+city = input("Please enter your city: ")
 
-is_OK_age = False
+age = 0
 
-while is_OK_age == False:
+while age <= 0:
     try:
-        age = input("Please enter your age: ")
-        age=int(age)
-        is_OK_age = True
+        age = int(input("Please enter your age: "))
     except ValueError:
         print("Please enter age as a whole number")
 
+
 # calculations
-is_winner = name.lower() == "sally" or "Sam" and age > 21
-
-
+is_sales_call = city == "portland" or "Hillsboro" and age > 21
 # output
-print(name, "age", age,  "is a winner:", is_winner)
+print("Call", name + ":", is_sales_call)
